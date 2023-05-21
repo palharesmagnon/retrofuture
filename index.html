@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Personal Terminal</title>
+</head>
+<body class="crt">
+<header class="main-header">
+    <nav>
+        <a href="index.html" class="brand">personal terminal</a>
+        <span class="cursor">
+            <svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_3_94)">
+                <rect y="0.5" width="16" height="24" fill="#060505"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_3_94">
+                <rect width="16" height="24" fill="white" transform="translate(0 0.5)"/>
+                </clipPath>
+                </defs>
+            </svg>
+        </span>
+    </nav>
+</header>
+<main>
+    <section class="projects">
+        <h1 class="text-uppercase color-accent weight-normal">Projects</h1>
+        <section class="content">
+            <div class="navigation">
+                <a class="button" href="#">Personal</a>
+                <a class="button" href="#">Shared</a>
+                <a class="button active" href="#">Research</a>
+                <a class="button" href="#">Bio</a>
+            </div>
+            <div class="articles">
+                <article>
+                    <header class="article__header">
+                        <h2 class="text-regular text-uppercase color-accent weight-normal">ENIAC</h2>
+                    </header>
+                    <div class="article__details">
+                        <div class="article__meta">
+                            <p class="info">1946</p>
+                            <p class="info">ENIAC Programmers</p>
+                            <p class="short-description">Frances Bilas and Betty Jean Jennings stand at its main control
+                                panels.</p>
+                        </div>
+                        <div class="article__cover">
+                            <img src="assets/images/102618640-03-01.jpg" alt="">
+                        </div>
+                    </div>
+                    <p class="description">
+                        In 1942, physicist John Mauchly proposed an all-electronic calculating machine. The U.S. Army,
+                        meanwhile, needed to calculate complex wartime ballistics tables. Proposal met patron.
+                    </p>
+                    <p class="description">
+                        The result was ENIAC (Electronic Numerical Integrator And Computer), built between 1943 and
+                        1945—the first large-scale computer to run at electronic speed without being slowed by any
+                        mechanical parts. For a decade, until a 1955 lightning strike, ENIAC may have run more
+                        calculations than all mankind had done up to that point.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </section>
+</main>
+<script src="js/effects.js"></script>
+</body>
+</html>
