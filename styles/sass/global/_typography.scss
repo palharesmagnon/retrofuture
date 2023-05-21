@@ -1,0 +1,9 @@
+:root {
+  /* Font Family */
+  --ff-roboto-mono: 'Roboto Mono', monospace;
+}
+
+body {
+  font-family: var(--ff-roboto-mono);
+  font-weight: 500;
+}

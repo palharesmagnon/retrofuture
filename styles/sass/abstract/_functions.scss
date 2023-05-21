@@ -1,0 +1,12 @@
+@use "sass:math" as m;
+
+@function rem($p) {
+  @return m.div($p, 16) + rem;
+}
+
+@function strip-unit($value) {
+  @if type-of($value) == 'number' and not unitless($value) {
+    @return m.div($value, ($value * 0 + 1));
+  }
+  @return $value;
+}
