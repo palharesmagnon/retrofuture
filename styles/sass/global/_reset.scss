@@ -23,7 +23,7 @@ body {
   max-width: f.em(900);
   display: flex;
   flex-direction: column;
-  gap: f.rem(48);
+  gap: f.rem(16);
 
   @include abstract.sm {
     margin: 0 auto;

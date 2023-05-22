@@ -53,7 +53,7 @@ body {
   max-width: 56.25em;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
 }
 @media (min-width: 41.6875em) {
   body {
