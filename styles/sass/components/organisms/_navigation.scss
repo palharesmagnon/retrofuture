@@ -1,0 +1,25 @@
+@use "../../abstract/functions" as f;
+@use "../../abstract";
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(24);
+  padding: f.rem(8);
+  
+  & > p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    //color: var(--cl-dark-green);
+  }
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(16);
+
+  @include abstract.sm {
+    flex-direction: row;
+  }
+}

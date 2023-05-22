@@ -5,34 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="styles/css/main.css">
     <title>Personal Terminal</title>
+
 </head>
 
-<body>
+<body class="base">
 
-<div class="color-palette">
-    <div class="base">
-        <p class="label label--primary">label</p>
-        <p class="label label--secondary">Secondary Label</p>
-        <p class="label label--tertiary">Tertiary Label</p>
-        <p class="label label--quaternary">Quaternary Label</p>
+<header>
+    <div class="application-bar">
+        <a href="index.html" class="brand">personal terminal</a>
     </div>
-    <div class="elevated">
-        <p class="label label--primary">label</p>
-        <p class="label label--secondary">Secondary Label</p>
-        <p class="label label--tertiary">Tertiary Label</p>
-        <p class="label label--quaternary">Quaternary Label</p>
-    </div>
-    <div class="light">
-        <p class="label label--light-primary">label</p>
-        <p class="label label--light-secondary">Secondary Label</p>
-        <p class="label label--light-tertiary">Tertiary Label</p>
-        <p class="label label--light-quaternary">Quaternary Label</p>
-    </div>
-</div>
-
+    <nav class="navigation">
+        <p>navigation</p>
+        <div class="button-group">
+            <button>personal</button>
+            <button>shared</button>
+            <button class="active">research</button>
+        </div>
+    </nav>
+</header>
+<main>
+    <article>
+        <div class="article-header">
+            <h1 class="uppercase">Eniac</h1>
+            <div class="meta">
+                <small><span class="label">date:</span>05-21-2023</small>
+                <small><span class="label">author:</span><span class="last-name">palhares,</span><span class="first-name">magnon</span></small>
+            </div>
+            <div class="tags">
+                <small>#computer-science</small>
+                <small>#computer-architecture</small>
+                <small>#computer-organization</small>
+                <small>#eniac</small>
+            </div>
+            <figure>
+                <img src="assets/images/102618640-03-01.jpg" alt="ENIAC programmers Frances Bilas (later Frances Spence) and Betty Jean Jennings (later Jean Bartik) stand at its main control panels. Both held degrees in mathematics. Bilas operated the Moore School’s Differential Analyzer before joining the ENIAC project.">
+                <figcaption class="meta">
+                    <small><span class="label">date:</span>1946</small>
+                    <small><span class="label">title:</span>ENIAC Programmers</small>
+                    <small><span class="label">description:</span>Frances Bilas and Betty Jean Jennings stand at its main control panels.</small>
+                    <small><span class="label">source:</span><a href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/317">Computer History Museum</a></small>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="content">
+            <p>In 1942, physicist John Mauchly proposed an all-electronic calculating machine. The U.S. Army, meanwhile, needed to calculate complex wartime ballistics tables. Proposal met patron.</p>
+            <p>The result was ENIAC (Electronic Numerical Integrator And Computer), built between 1943 and 1945—the first large-scale computer to run at electronic speed without being slowed by any mechanical parts. For a decade, until a 1955 lightning strike, ENIAC may have run more calculations than all mankind had done up to that point.</p>
+        </div>
+    </article>
+</main>
 <script src="js/effects.js"></script>
 </body>
 </html>

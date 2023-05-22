@@ -1,0 +1,8 @@
+@use "../../abstract/functions" as f;
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(24);
+  padding: f.rem(8);
+}

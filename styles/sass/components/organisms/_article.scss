@@ -1,0 +1,22 @@
+@use "../../abstract/functions" as f;
+
+article {
+  max-width: f.em(600);
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(16);
+}
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(8);
+
+  figure {
+    margin: f.rem(16) 0;
+    img {
+      margin: f.rem(8) 0;
+      object-fit: cover;
+    }
+  }
+}

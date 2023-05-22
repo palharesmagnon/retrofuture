@@ -1,0 +1,15 @@
+@use "../../abstract/functions" as f;
+
+.brand {
+  font-size: f.rem(16);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--cl-dark-gray-6);
+  text-decoration: none;
+  
+  &:focus {
+    text-decoration: underline;
+    outline: none;
+  }
+}
