@@ -1,0 +1,10 @@
+@use "../../abstract/functions" as f;
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: f.rem(16);
+  padding: f.rem(24) f.rem(8);
+  //outline: 1px solid var(--cl-gray-6);
+}

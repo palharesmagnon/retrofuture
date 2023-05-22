@@ -1,0 +1,27 @@
+@use "../../abstract/functions" as f;
+
+input[type=search] {
+  width: 100%;
+  background: transparent;
+  //border: 1px solid var(--cl-gray-6);
+  border: none;
+  padding: f.rem(8);
+  font-size: f.rem(16);
+  line-height: 1.75;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:focus::placeholder {
+    color: var(--cl-dark-green);
+  }
+}
+
+input[type=search]::placeholder {
+  color: var(--cl-gray-6);
+  //opacity: 1;
+}

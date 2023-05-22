@@ -1,0 +1,13 @@
+.search-form {
+  display: flex;
+  border: 1px solid var(--cl-gray-6);
+
+  button {
+    width: 25%;
+    text-align: center;
+  }
+
+  &:focus-within {
+    border: 1px solid var(--cl-dark-green);
+  }
+}

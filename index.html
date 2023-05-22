@@ -17,10 +17,15 @@
     </div>
     <nav class="navigation">
         <p>navigation</p>
-        <div class="button-group">
+        <div class="input-group">
             <button>personal</button>
             <button>shared</button>
-            <button class="active">research</button>
+<!--            <button class="active">research</button>-->
+            <form action="#" class="search-form">
+                <label class="label" for="research" hidden>Search</label>
+                <input type="search" id="research" placeholder="search">
+                <button type="submit">go</button>
+            </form>
         </div>
     </nav>
 </header>
@@ -30,7 +35,7 @@
             <h1 class="uppercase">Eniac</h1>
             <div class="meta">
                 <small><span class="label">date:</span>05-21-2023</small>
-                <small><span class="label">author:</span><span class="last-name">palhares,</span><span class="first-name">magnon</span></small>
+                <small><span class="label">author:</span>Computer History Museum</small>
             </div>
             <div class="tags">
                 <small>#computer-science</small>
@@ -44,7 +49,8 @@
                     <small><span class="label">date:</span>1946</small>
                     <small><span class="label">title:</span>ENIAC Programmers</small>
                     <small><span class="label">description:</span>Frances Bilas and Betty Jean Jennings stand at its main control panels.</small>
-                    <small><span class="label">source:</span><a href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/317" target="_blank">Computer History Museum</a></small>
+                    <small><span class="label">credit line:</span>© University of Pennsylvania</small>
+                    <small><span class="label">source:</span><a href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/317" target="_blank">CMH / birth-of-the-computer</a></small>
                 </figcaption>
             </figure>
         </div>
@@ -54,6 +60,14 @@
         </div>
     </article>
 </main>
+<footer>
+    <h2 class="small-text secondary">Developed by Magnon Palhares</h2>
+    <ul class="social-nav">
+        <li class="small-text"><a href="https://www.linkedin.com/in/magnon-palhares/" target="_blank">in<span class="arrow"> &rarr;</span></a></li>
+        <li class="small-text"><a href="https://www.instagram.com/palharesmagnon/" target="_blank">inst<span class="arrow"> &rarr;</span></a></li>
+        <li class="small-text"><a href="https://github.com/palharesmagnon" target="_blank">github<span class="arrow"> &rarr;</span></a></li>
+    </ul>
+</footer>
 <script src="js/effects.js"></script>
 </body>
 </html>

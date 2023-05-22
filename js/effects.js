@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".button-group > button")
+const buttons = document.querySelectorAll(".input-group > button")
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", activeButton)

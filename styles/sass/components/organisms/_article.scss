@@ -1,10 +1,16 @@
 @use "../../abstract/functions" as f;
+@use "../../abstract";
 
 article {
-  max-width: f.em(600);
+  //max-width: f.em(600);
   display: flex;
   flex-direction: column;
   gap: f.rem(16);
+  padding: f.rem(16);
+
+  @include abstract.sm {
+    padding: f.rem(16) f.rem(96);
+  }
 }
 
 .article-header {

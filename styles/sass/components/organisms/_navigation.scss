@@ -14,12 +14,20 @@
   }
 }
 
-.button-group {
+.input-group {
   display: flex;
   flex-direction: column;
   gap: f.rem(16);
 
   @include abstract.sm {
     flex-direction: row;
+
+    button {
+      width: 25%;
+    }
+
+    .search-form {
+      width: 50%;
+    }
   }
 }
