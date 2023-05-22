@@ -1,0 +1,20 @@
+@use "../../abstract/functions" as f;
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  color: var(--cl-gray-1);
+}
+
+.label {
+  margin-right: f.rem(8);
+}
+
+.last-name {
+  text-transform: capitalize;
+  margin-right: f.rem(4);
+}
+
+.first-name {
+  text-transform: uppercase;
+}

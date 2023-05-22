@@ -1,0 +1,12 @@
+@use "../../abstract/functions" as f;
+@use "../../abstract";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(16);
+  
+  @include abstract.sm {
+    text-align: justify;
+  }
+}

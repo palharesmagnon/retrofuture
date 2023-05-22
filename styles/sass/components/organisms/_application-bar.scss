@@ -1,0 +1,6 @@
+@use "../../abstract/functions" as f;
+
+.application-bar {
+  background-color: var(--cl-dark-green);
+  padding: f.rem(16) f.rem(4);
+}

@@ -1,0 +1,85 @@
+@use "../abstract/functions" as f;
+
+.normal {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.primary {
+  color: var(--cl-gray-6);
+}
+
+.secondary {
+  color: var(--cl-dark-gray-1);
+}
+
+.tertiary {
+  color: var(--cl-dark-gray-2);
+}
+
+.quaternary {
+  color: var(--cl-dark-gray-3);
+}
+
+.light-primary {
+  color: var(--cl-dark-gray-6);
+}
+
+.light-secondary {
+  color: var(--cl-dark-gray-3);
+}
+
+.light-tertiary {
+  color: var(--cl-dark-gray-2);
+}
+
+.light-quaternary {
+  color: var(--cl-dark-gray-1);
+}
+
+.container {
+  display: flex;
+  gap: f.rem(16);
+  padding: 0 f.rem(8);
+}
+
+.column {
+  flex-direction: column;
+}
+
+.base {
+  background-color: var(--cl-dark-gray-6);
+}
+
+.elevated {
+  background-color: var(--cl-dark-gray-5);
+}
+
+.light {
+  background-color: var(--cl-gray-6);
+}
+
+.color-dark-green {
+  color: var(--cl-dark-green);
+}
+

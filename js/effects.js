@@ -1,12 +1,12 @@
-const navigation = document.querySelector(".navigation")
-const buttons = document.querySelectorAll(".button")
+const buttons = document.querySelectorAll(".button-group > button")
 
 for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener("click", active)
+    buttons[i].addEventListener("click", activeButton)
 }
 
-function active() {
+function activeButton() {
     let current = document.querySelectorAll('.active')
-    current[0].className = current[0].className.replace(" active", "")
-    this.className += " active"
+    console.log(current)
+    current[0].className = current[0].className.replace("active", "")
+    this.className += "active"
 }

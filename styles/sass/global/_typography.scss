@@ -1,0 +1,66 @@
+@use "../abstract/functions" as f;
+
+:root {
+  /* Font Family */
+  --ff-roboto-mono: 'Roboto Mono', monospace;
+}
+
+body {
+  font-family: var(--ff-roboto-mono);
+  font-weight: 500;
+  color: var(--cl-gray-3);
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: f.rem(22.13);
+}
+
+h2 {
+  font-size: f.rem(20.74);
+}
+
+h3 {
+  font-size: f.rem(19.44);
+}
+
+h4 {
+  font-size: f.rem(18.22);
+}
+
+h5 {
+  font-size: f.rem(17.07);
+}
+
+.subtitle {
+  font-size: f.rem(16);
+  color: var(--cl-dark-gray-1);
+}
+
+p {
+  font-size: f.rem(16);
+}
+
+small, .small-text {
+  font-size: f.rem(13.17);
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: var(--cl-dark-blue);
+  text-underline-offset: 4px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+
+

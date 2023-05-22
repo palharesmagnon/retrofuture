@@ -1,0 +1,36 @@
+@use "../abstract/functions" as f;
+@use "../abstract";
+
+:root {
+  color-scheme: dark light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+
+
+body {
+  min-height: 100vh;
+  max-width: f.em(900);
+  display: flex;
+  flex-direction: column;
+  gap: f.rem(48);
+
+  @include abstract.sm {
+    margin: 0 auto;
+  }
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}

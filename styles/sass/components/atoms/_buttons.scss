@@ -1,0 +1,27 @@
+@use "../../abstract/functions" as f;
+
+button {
+  width: 100%;
+  padding: f.rem(8);
+  background-color: transparent;
+  border: none;
+  outline: 1px solid var(--cl-gray-6);
+  font-size: f.rem(16);
+  line-height: 1.75;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  cursor: pointer;
+  //color: var(--cl-dark-green);
+  transition: background .1s ease-in-out;
+}
+
+button:hover, button:focus, .active {
+  background-color: var(--cl-gray-6);
+  color: var(--cl-dark-gray-6);
+}
+
+button:active {
+  background-color: var(--cl-gray-3);
+}
