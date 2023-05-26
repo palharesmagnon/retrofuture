@@ -1,0 +1,17 @@
+@use "../../abstract/functions" as f;
+
+.page-404 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-page-title {
+  font-size: f.rem(112);
+}
+
+.error-page-desc {
+  font-size: f.rem(24);
+}

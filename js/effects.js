@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".input-group > button")
+const buttons = document.querySelectorAll(".input-group > .button")
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", activeButton)
@@ -6,7 +6,6 @@ for (let i = 0; i < buttons.length; i++) {
 
 function activeButton() {
     let current = document.querySelectorAll('.active')
-    console.log(current)
-    current[0].className = current[0].className.replace("active", "")
-    this.className += "active"
+    current[0].className = current[0].className.replace(" active", "")
+    this.className += " active"
 }
